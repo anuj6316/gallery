@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "name": "SmolLM2-135M (default)",
+      "modelId": "litert-community/SmolLM2-135M-Instruct",
+      "modelFile": "SmolLM2_135M_Instruct.litertlm",
+      "commitHash": "main",
+      "description": "Default on-device chat model \u2014 pre-installed with MindMap AI.",
+      "sizeInBytes": 142819328,
+      "url": "https://huggingface.co/litert-community/SmolLM2-135M-Instruct/resolve/main/SmolLM2_135M_Instruct.litertlm",
+      "defaultConfig": {
+        "topK": 64,
+        "topP": 0.95,
+        "temperature": 1.0,
+        "maxTokens": 1024,
+        "accelerators": "gpu,cpu"
+      },
+      "taskTypes": ["llm_chat"]
+    }
+  ]
+}
